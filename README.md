@@ -13,7 +13,8 @@
 # 테스트 보고서
 테스트 방법 | 보고서
 --------|-----------
-wrk2 | [wrk2 테스트 결과 보고서](result/wrk/README.md)
+wrk2 | [스레드 풀 크기 늘리기](result/wrk/README.md)
+wrk2 | [스레드 풀 최소 사이즈 정하기](result/wrk_core_size/README.md)
 
 # 기술 스택
 - 자바 17, 스프링 부트
