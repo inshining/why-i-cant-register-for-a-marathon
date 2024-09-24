@@ -15,4 +15,9 @@ public class RegistrationController {
     public String registration(@RequestBody UserDto userDto) {
         return registrationService.registration(userDto);
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, World!";
+    }
 }
